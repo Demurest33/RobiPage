@@ -1,0 +1,440 @@
+*{
+    letter-spacing: 1px;
+}
+
+body{
+    margin: 0;
+    background-color:rgba(18,18,18,255);
+}
+
+p{
+    font-size: 18px;
+}
+
+.menu{
+    background-color: black;
+    height: 40px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.menu_items a{
+    color:blanchedalmond;
+    margin: 10px;
+    text-decoration: none;
+
+}
+
+.menu_items :hover{
+    color: crimson;
+
+}
+
+.kaguya{
+    height: 250px;
+    width: 100%;
+    background-image: url(img/Kaguya.jpeg);
+    background-color: rgba(35, 1, 68, 0.4);
+    background-attachment: fixed;
+    width: 100%;
+ 
+}
+
+.kaguya_color{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(35, 1, 68, 0.4);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+
+.robi_letters{
+    width: 432px;
+    height: 154px;
+
+}
+
+.middle h1{
+
+    background-color: rgba(34,34,34,255)
+    ;
+    height: 120px;
+    text-align: center;
+    margin: 0;
+    color: rgb(216, 214, 205);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content_box{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*background-color: red;*/
+    height: 100%;
+    
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /*background-color: blueviolet;*/
+    height: 100%;
+    width: 100%;
+}
+
+.start_img{
+    margin: 8px;
+    background-attachment: fixed;
+}
+.img4{
+    margin-top: 430px;
+}
+
+.bottom{
+    background-color: black;
+    height:100px;
+    display: flex;
+    flex-direction:row;
+}
+
+.bottom_box{
+    height: 20px;
+    width: 100%;
+    /*background-color: cornflowerblue;*/
+    margin: 10px;
+    margin-top: 60px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    
+}
+
+.bottom_items a,p{
+    color:blanchedalmond;
+    text-decoration: none;
+    margin: 2px;
+}
+
+.bottom_items :hover{
+    color: crimson;
+}
+
+
+.middle_about_me h1{
+
+    background-color: rgba(34,34,34,255);
+    height: 120px;
+    text-align: center;
+    margin: 0;
+    color: rgb(216, 214, 205);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items:center;
+    padding: 20px;
+}
+
+
+.abm_content_items{
+    /*background-color: aquamarine;*/
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}
+
+#facts_about{
+    width: 60%;
+    height:100%;
+    /*background-color:black;*/
+    color: blanchedalmond;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    text-align: justify;
+    padding:10px;
+;
+}
+
+#spoty{
+    width: 400px;
+    height:100%;
+    /*background-color:black;*/
+    color: rgb(236, 198, 140);
+    margin-left:10px;
+
+    display: flex;
+    flex: wrap;
+
+    
+}
+
+.how_into{
+    margin-top: 40px;
+    margin-bottom: 40px ;
+    /*background: rgb(0, 0, 0);*/
+    width: 100%;
+    color: blanchedalmond;
+
+}
+
+.how_into_items{
+    /*background-color: seagreen;*/
+    height: 500px;
+    width: 100%;
+    
+    display: flex;
+    flex-flow: row;
+}
+
+#how_into_items_text{
+    /*background-color: slategray;*/
+    height: 200px;
+    width: 30%;
+    padding: 10px;
+}
+
+#how_into_items_image{
+
+    margin-left: 6.5%;
+    height: 90%;
+    width: 25%;
+
+    display: flex;
+    flex-flow: row;
+    /*background-color: black;*/
+
+}
+
+.favs{
+    /*background-color: burlywood;*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+}
+
+#myfavs{
+    /*background-color: chartreuse;*/
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#favsp{
+    /*background-color: crimson;*/
+    display: flex;
+    justify-content: center;
+}
+
+#favpitem{
+    text-align: center;
+    width: 35%;
+    /*background-color: rgb(122, 114, 192);*/
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+h3{
+    color: blanchedalmond;
+}
+
+.hyouka{
+    height: 430px;
+    width: 100%;
+    background-image: url(img/hyouka.png);
+    background-color: rgba(35, 1, 68, 0.4);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    margin: 10px;
+ 
+}
+
+.hyouka_color{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(15, 10, 20, 0.4);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#favpitem_hyouka{
+    text-align: center;
+    width: 100%;
+    /*background-color: rgb(122, 114, 192);*/
+    margin-top: 5px;
+}
+
+.hibike{
+    height: 430px;
+    width: 100%;
+    background-image: url(img/hibike.png);
+    background-color: rgba(35, 1, 68, 0.4);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    margin: 10px;
+ 
+}
+
+.love_is_war{
+    height: 430px;
+    width: 100%;
+    background-image: url(img/kaguya_wall.png);
+    background-color: rgba(35, 1, 68, 0.4);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    margin: 10px;
+}
+
+.quotes{
+    /*background-color: rgb(10, 218, 255);*/
+    display: flex;
+    flex-direction: row wrap;
+    justify-content:space-between;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.quote{
+    /*background-color: deeppink;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 55%;
+    margin: 5px;
+    margin-left: 35px;
+    padding: 20px;
+}
+
+.quotegif{
+    height: 270px;
+    display: flex;
+    width: 45%;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 18px 0px rgb(255, 255, 255);
+}
+
+#shiroganevolley{
+    background-image: url(img/shirogane.gif);
+    background-size: cover;
+}
+
+#shinomiyacat{
+    background-image: url(img/Kaguyacat.gif);
+    background-size: cover;
+}
+
+#kumiko{
+    background-image: url(img/kumiko.gif);
+    background-size: cover;
+}
+
+#chitanda{
+    background-image: url(img/chitanda.gif);
+    background-size: cover;
+}
+
+.text{
+    /*background-color: gray;*/
+    display: flex;
+    color: blanchedalmond;
+    width: 95%;
+    margin: auto;
+
+}
+
+.autor{
+    background-color: rgb(235, 130, 32);
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.autor a{
+    color: blanchedalmond;
+}
+
+.cajon{
+    /*background-color: rgb(156, 218, 98);*/
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.mostrar{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(182, 157, 83);
+    text-align: center;
+    height: 40px;
+    align-items: center;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+.mostrar:hover{
+    background-color: rgb(105, 19, 19);
+    transition: 1s;
+}
+
+.cajon_item{
+    background-color: rgb(0, 0, 0);
+    display: none;
+}
+
+
+.ocultar{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 5px;
+}
+
+.ritsu_img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bruh{
+    width: 60%;
+    background-color: beige;
+}
